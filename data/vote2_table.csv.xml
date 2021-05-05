@@ -1,0 +1,246 @@
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Cartographic Products and Services Branch</origin>
+				<pubdate>201603</pubdate>
+				<title>2015 Cartographic Boundary File, State-County for United States, 1:500,000</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>Cartographic Boundary Files</sername>
+					<issue>2015</issue>
+				</serinfo>
+				<onlink>http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_county_500k.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The 2015 cartographic boundary shapefiles are simplified representations of selected geographic areas from the U.S. Census Bureau's Master Address File / Topologically Integrated Geographic Encoding and Referencing (MAF/TIGER) Database (MTDB). These boundary files are specifically designed for small-scale thematic mapping. When possible, generalization is performed with the intent to maintain the hierarchical relationships among geographies and to maintain the alignment of geographies within a file set for a given year. Geographic areas may not align with the same areas from another year. Some geographies are available as nation-based files while others are available only as state-based files.
+
+The primary legal divisions of most states are termed counties.  In Louisiana, these divisions are known as parishes.  In Alaska, which has no counties, the equivalent entities are the organized boroughs, city and boroughs, municipalities, and for the unorganized area, census areas.  The latter are delineated cooperatively for statistical purposes by the State of Alaska and the Census Bureau.  In four states (Maryland, Missouri, Nevada, and Virginia), there are one or more incorporated places that are independent of any county organization and thus constitute primary divisions of their states.  These incorporated places are known as independent cities and are treated as equivalent entities for purposes of data presentation.  The District of Columbia and Guam have no primary divisions, and each area is considered an equivalent entity for purposes of data presentation.  The Census Bureau treats the following entities as equivalents of counties for purposes of data presentation: Municipios in Puerto Rico, Districts and Islands in American Samoa, Municipalities in the Commonwealth of the Northern Mariana Islands, and Islands in the U.S. Virgin Islands.  The entire area of the United States, Puerto Rico, and the Island Areas is covered by counties or equivalent entities.</abstract>
+			<purpose>These files were specifically created to support small-scale thematic mapping.  To improve the appearance of shapes at small scales, areas are represented with fewer vertices than detailed TIGER/Line Shapefiles.  Cartographic boundary files take up less disk space than their ungeneralized counterparts.  Cartographic boundary files take less time to render on screen than TIGER/Line Shapefiles.  You can join this file with table data downloaded from American FactFinder by using the AFFGEOID field in the cartographic boundary file.  If detailed boundaries are required, please use the TIGER/Line Shapefiles instead of the generalized cartographic boundary files.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>201603</begdate>
+					<enddate>201603</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned.  No changes or updates will be made to this version of the cartographic boundary files.  New versions of the cartographic boundary files will be produced on an annual release schedule.  Types of geography released may vary from year to year.</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-179.148909</westbc>
+				<eastbc>179.77847</eastbc>
+				<northbc>71.365162</northbc>
+				<southbc>-14.548699</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>Boundaries</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>2015</themekey>
+				<themekey>SHP</themekey>
+				<themekey>Borough</themekey>
+				<themekey>Cartographic Boundary</themekey>
+				<themekey>Census Area</themekey>
+				<themekey>City</themekey>
+				<themekey>City and Borough</themekey>
+				<themekey>County</themekey>
+				<themekey>County equivalent</themekey>
+				<themekey>District</themekey>
+				<themekey>Generalized</themekey>
+				<themekey>Independent City</themekey>
+				<themekey>Island</themekey>
+				<themekey>Municipality</themekey>
+				<themekey>Municipio</themekey>
+				<themekey>Parish</themekey>
+				<themekey>State</themekey>
+			</theme>
+			<place>
+				<placekt>ANSI INCITS 38:2009 (Formerly FIPS 5-2), ANSI INCITS 31:2009 (Formerly FIPS 6-4),ANSI INCITS 454:2009 (Formerly FIPS 8-6), ANSI INCITS 455:2009(Formerly FIPS 9-1), ANSI INCITS 446:2008 (Geographic Names Information System (GNIS))</placekt>
+				<placekey>United States</placekey>
+				<placekey>US</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The intended display scale for this file is 1:500,000.  This file should not be displayed at scales larger than 1:500,000.
+
+These products are free to use in a product or publication, however acknowledgement must be given to the U.S. Census Bureau as the source.  The boundary information is for visual display at appropriate small scales only.  Cartographic boundary files should not be used for geographic analysis including area or perimeter calculation.  Files should not be used for geocoding addresses.  Files should not be used for determining precise geographic area relationships.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>4600 Silver Hill Road</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301.763.1128</cntvoice>
+				<cntfax>301.763.4710</cntfax>
+				<cntemail>geo.geography@census.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Accurate against American National Standards Institute (ANSI) Publication INCITS 446-2008 (Geographic Names Information System (GNIS)) at the 100% level for the codes and base names present in the file.  The remaining attribute information has been examined but has not been fully tested for accuracy.</attraccr>
+		</attracc>
+		<logic>The Census Bureau performed automated tests to ensure logical consistency of the source database.  Segments making up the outer and inner boundaries of a polygon tie end-to-end to completely enclose the area.  All polygons were tested for closure. The Census Bureau uses its internally developed geographic update system to enhance and modify spatial and attribute data in the Census MAF/TIGER database.  Standard geographic codes, such as INCITS (formerly FIPS) codes for states, counties, municipalities, county subdivisions, places, American Indian/Alaska Native/Native Hawaiian areas, and congressional districts are used when encoding spatial entities.  The Census Bureau performed spatial data tests for logical consistency of the codes during the compilation of the original Census MAF/TIGER database files.  Feature attribute information has been examined but has not been fully tested for consistency.
+
+For the cartographic boundary files, the Point and Vector Object Count for the G-polygon SDTS Point and Vector Object Type reflects the number of records in the file's data table.  For multi-polygon features, only one attribute record exists for each multi-polygon rather than one attribute record per individual G-polygon component of the multi-polygon feature.  Cartographic Boundary File multi-polygons are an exception to the G-polygon object type classification.  Therefore, when multi-polygons exist in a file, the object count will be less than the actual number of G-polygons.</logic>
+		<complete>The cartographic boundary files are generalized representations of extracts taken from the MAF/TIGER Database.  Generalized boundary files are clipped to a simplified version of the U.S. outline.  As a result, some off-shore areas may be excluded from the generalized files.  Some small geographic areas, holes, or discontiguous parts of areas may not be included in generalized files if they are not visible at the target scale.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data are not accurate. Data are generalized representations of geographic boundaries at 1:500,000.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</origin>
+						<pubdate>unpublished material</pubdate>
+						<title>Census MAF/TIGER database</title>
+					</citeinfo>
+				</srccite>
+				<typesrc>Geo-spatial Relational Database</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>20150101</begdate>
+							<enddate>20150101</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>The dates describe the effective date of 2015 cartographic boundaries.</srccurr>
+				</srctime>
+				<srccitea>MAF/TIGER</srccitea>
+				<srccontr>All spatial and feature data</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Spatial data were extracted from the MAF/TIGER database and processed through a U.S. Census Bureau batch generalization system.</procdesc>
+				<srcused>MAF/TIGER</srcused>
+				<procdate>201603</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<indspref>INCITS (formerly FIPS) codes</indspref>
+		<direct>Vector</direct>
+		<ptvctinf><esriterm Name="vote2"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="vote2_table.csv">
+			<enttyp>
+				<enttypl>cb_2015_us_county_500k.shp</enttypl>
+				<enttypd>Current County and Equivalent National entities</enttypd>
+				<enttypds>U.S. Census Bureau</enttypds>
+				<enttypt Sync="TRUE">Table</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">OBJECTID</attrlabl><attalias Sync="TRUE">OBJECTID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>GEOID</attrlabl>
+				<attrdef>County identifier; a concatenation of current state Federal Information Processing Series (FIPS) code and county FIPS code</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<udom>The GEOID attribute is a concatenation of the state FIPS code followed by the county FIPS code. No spaces are allowed between the two codes. The state FIPS code is taken from "National Standard Codes (ANSI INCITS 38-2009), Federal Information Processing Series (FIPS) - States". The county FIPS code is taken from "National Standard Codes (ANSI INCITS 31-2009), Federal Information Processing Series (FIPS) - Counties/County Equivalents".</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">GEOID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+				<attrdef>Current county name</attrdef>
+				<attrdefs>U.S. Census Bureau</attrdefs>
+				<attrdomv>
+					<codesetd>
+						<codesetn>National Standard Codes (ANSI INCITS 31-2009), Federal Information Processing Series (FIPS) - Counties/County Equivalents</codesetn>
+						<codesets>U.S. Census Bureau</codesets>
+					</codesetd>
+				</attrdomv>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">State</attrlabl><attalias Sync="TRUE">State</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">POP2016</attrlabl><attalias Sync="TRUE">POP2016</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">S_MedEarn2015</attrlabl><attalias Sync="TRUE">S_MedEarn2015</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">P_PctPov</attrlabl><attalias Sync="TRUE">P_PctPov</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SEth_NWhitePct</attrlabl><attalias Sync="TRUE">SEth_NWhitePct</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Pct_Urban</attrlabl><attalias Sync="TRUE">Pct_Urban</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">HS_NPct</attrlabl><attalias Sync="TRUE">HS_NPct</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">e2012_RepPct</attrlabl><attalias Sync="TRUE">e2012_RepPct</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">E2016_RPct2</attrlabl><attalias Sync="TRUE">E2016_RPct2</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">E2012_DemPct</attrlabl><attalias Sync="TRUE">E2012_DemPct</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">WinParty</attrlabl><attalias Sync="TRUE">WinParty</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">11</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">E16_Dpct</attrlabl><attalias Sync="TRUE">E16_Dpct</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Pct_Unemp</attrlabl><attalias Sync="TRUE">Pct_Unemp</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">GEOID2</attrlabl><attalias Sync="TRUE">GEOID2</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">GEOID3</attrlabl><attalias Sync="TRUE">GEOID3</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">255</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Pop_2015</attrlabl><attalias Sync="TRUE">Pop_2015</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">NonEng</attrlabl><attalias Sync="TRUE">NonEng</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">Shape_Length</attrlabl><attalias Sync="TRUE">Shape_Length</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Length of feature in internal units.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape_Area</attrlabl><attalias Sync="TRUE">Shape_Area</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Area of feature in internal units squared.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Positive real numbers that are automatically generated.</udom></attrdomv></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>4600 Silver Hill Road</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301.763.1128</cntvoice>
+				<cntfax>301.763.4710</cntfax>
+				<cntemail>geo.geography@census.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<distliab>No warranty, expressed or implied is made with regard to the accuracy of these data, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau in specific as to the spatial or attribute accuracy of the data.  The act of distribution shall not constitute any such warranty and no responsibility is assumed by the U.S. government in the use of these files.  The boundary information is for small-scale mapping purposes only; boundary depiction and designation for small-scale mapping purposes do not constitute a determination of jurisdictional authority or rights of ownership or entitlement and they are not legal land descriptions.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>SHP</formname>
+					<filedec>PK-ZIP, version 1.93A or higher</filedec>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://www2.census.gov/geo/tiger/GENZ2015/shp/cb_2015_us_county_500k.zip</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>The online cartographic boundary files may be downloaded without charge.</fees>
+			<ordering>To obtain more information about ordering Cartographic Boundary Files visit http://www.census.gov/geo/www/tiger.</ordering>
+		</stdorder>
+		<techpreq>The cartographic boundary files contain geographic data only and do not include display mapping software or statistical data.  For information on how to use cartographic boundary file data with specific software package users shall contact the company that produced the software.</techpreq>
+	</distinfo>
+	<metainfo>
+		<metd>201603</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>U.S. Department of Commerce, U.S. Census Bureau, Geography Division, Geographic Customer Services Branch</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing</addrtype>
+					<address>4600 Silver Hill Road</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20233-7400</postal>
+					<country>United States</country>
+				</cntaddr>
+				<cntvoice>301.763.1128</cntvoice>
+				<cntfax>301.763.4710</cntfax>
+				<cntemail>geo.geography@census.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><CreaDate>20171030</CreaDate><CreaTime>21584400</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>FALSE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\DESKTOP-A3NGAMB\E\FA20\Stats\Exercise 6\vote2_table.csv</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation><itemName Sync="TRUE">vote2_table.csv</itemName><imsContentType Sync="TRUE">005</imsContentType><itemSize Sync="TRUE">0.000</itemSize></itemProps><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20161111" Time="122025">Project cb_2015_us_county_500k "J:\Resources\GIS\US County\USCounty02.gdb\County01" PROJCS['North_America_Albers_Equal_Area_Conic',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Albers'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-96.0],PARAMETER['Standard_Parallel_1',20.0],PARAMETER['Standard_Parallel_2',60.0],PARAMETER['Latitude_Of_Origin',40.0],UNIT['Meter',1.0]] # GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]]</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Analysis Tools.tbx\Clip" Date="20170401" Time="141247">Clip County01 frame01 "C:\Users\Anth04\OneDrive - The University of Colorado Denver\01_R\2017_Voting\VoteGeog.gdb\county_final" #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="150943">CalculateField county_final CFIPS "[STATEFP] + [COUNTYFP]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="152754">CalculateField county_final E2016_rep_PCT "[E2016_rep] / [E2016_sum]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="152959">CalculateField county_final E2016_repZ "[E2016_rep_PCT] -.4706111" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="153017">CalculateField county_final E2016_repZ "[E2016_repZ] /.156077" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="154334">CalculateField county_final E2016_dem_pct "[E2016_Dem] / [E2016_sum]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="154348">CalculateField county_final E2016_r_diff "[E2016_rep_PCT] - [E2016_dem_pct]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="182831">CalculateField county_final S_NWhite "[S_Eth_Total] - [SEth_White]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="182900">CalculateField county_final SEth_NWhitePct "[S_NWhite] / [S_Eth_Total]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="191633">CalculateField county_final Pct_Urban "[PUrban] /( [PUrban]+ [PRural])" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="213119">CalculateField county_final Pct_Urban "[Pct_Urban] * 100" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170401" Time="213130">CalculateField county_final SEth_NWhitePct "[SEth_NWhitePct] * 100" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="005817">CalculateField "Covariate Maps\HighEd" HS_NTot "[HS_N9] + [HSN12]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="005830">CalculateField "Covariate Maps\HighEd" HS_NPct "[HS_NTot] / [HS_Total]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="005849">CalculateField "Covariate Maps\HighEd" HS_NPct "[HS_NPct] * 100" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="010101">CalculateField "Covariate Maps\HighEd" Check "[HS_NPct] + [PHSGrad02]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="094502">CalculateField "Comparison Trends\county_final" e2012_RepPct ([E2012_Rombey] / [E2012_TotalVote])*100 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="095137">CalculateField "Comparison Trends\county_final" E2016_RPct2 "[E2016_rep_PCT] *100" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="095259">CalculateField "Comparison Trends\county_final" E2012_DemPct "[E2012_DemPct] *100" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="095338">CalculateField "Comparison Trends\county_final" E2012_DemPct "[E2012_ObVote] *100 / [E2012_TotalVote]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="095452">CalculateField "Comparison Trends\county_final" E2016_RDiffPct2 "[E2016_r_diff] *100" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="095544">CalculateField "Comparison Trends\county_final" E2012_RDiffPct2 "[e2012_RepPct] - [E2012_DemPct]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="095622">CalculateField "Comparison Trends\county_final" Delta_DiffPct2012_2016 "[E2016_RDiffPct2] - [E2012_RDiffPct2]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="100838">CalculateField "Comparison Trends\county_final" e2012_RepPct "[E2012_Rombey] * 100/ [E2012_TotalVote]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="100919">CalculateField "Comparison Trends\county_final" E2012_DemPct "[E2012_ObVote] * 100/ [E2012_TotalVote]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="100941">CalculateField "Comparison Trends\county_final" E2012_RDiffPct2 "[e2012_RepPct] - [E2012_DemPct]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="101044">CalculateField "Comparison Trends\county_final" Delta_DiffPct2012_2016 "[E2016_RDiffPct2] - [E2012_RDiffPct2]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20170402" Time="163606">CalculateField "Covariate Maps\HighEd" Check "100- [HS_NPct]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171009" Time="212635">CalculateField "Comparison Trends\county_final" Winner "[E2016_Dem] - [E2016_rep]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171009" Time="212720">CalculateField county_final WinParty "R" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171009" Time="212731">CalculateField county_final WinParty "D" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171030" Time="150707">CalculateField vote F12_dem_pct "[F12_dem_pct] *100" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171030" Time="150721">CalculateField vote F12_dem_pct "[F12_dem_pct] *100" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20171030" Time="150839">CalculateField vote E16_Dpct "[E2016_dem_pct] *100" VB #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20201025" Time="204659">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.4.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=D:\OneDrive - The University of Colorado Denver\02_T\Courses\38_Geog5050_2020a_SpatialStat\exercises\GEOG5050_x06\beta\G5050_Ex06\G5050Ex06_Vote.gdb&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;FileGDB&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;vote&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;Pct_Unemp&lt;/field_name&gt;&lt;field_type&gt;DOUBLE&lt;/field_type&gt;&lt;field_alias&gt;Pct_Unemp&lt;/field_alias&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20201025" Time="211126">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.4.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=D:\OneDrive - The University of Colorado Denver\02_T\Courses\38_Geog5050_2020a_SpatialStat\exercises\GEOG5050_x06\beta\G5050_Ex06\G5050Ex06_Vote.gdb&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;FileGDB&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;vote&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;GEOID2&lt;/field_name&gt;&lt;field_type&gt;DOUBLE&lt;/field_type&gt;&lt;field_alias&gt;GEOID2&lt;/field_alias&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20201025" Time="211155">CalculateField vote GEOID2 !GEOID! "Python 3" #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20201025" Time="211747">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.4.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=D:\OneDrive - The University of Colorado Denver\02_T\Courses\38_Geog5050_2020a_SpatialStat\exercises\GEOG5050_x06\beta\G5050_Ex06\G5050Ex06_Vote.gdb&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;FileGDB&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;vote&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;GEOID3&lt;/field_name&gt;&lt;field_type&gt;TEXT&lt;/field_type&gt;&lt;field_length&gt;255&lt;/field_length&gt;&lt;field_alias&gt;GEOID3&lt;/field_alias&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20201025" Time="213350">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.4.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=D:\OneDrive - The University of Colorado Denver\02_T\Courses\38_Geog5050_2020a_SpatialStat\exercises\GEOG5050_x06\beta\G5050_Ex06\G5050Ex06_Vote.gdb&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;FileGDB&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;vote&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;Pop_2015&lt;/field_name&gt;&lt;field_type&gt;DOUBLE&lt;/field_type&gt;&lt;field_alias&gt;Pop_2015&lt;/field_alias&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;MedAge15&lt;/field_name&gt;&lt;field_type&gt;DOUBLE&lt;/field_type&gt;&lt;field_alias&gt;MedAge15&lt;/field_alias&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\UpdateSchema" Date="20201027" Time="220652">UpdateSchema "CIMDATA=&lt;CIMStandardDataConnection xsi:type='typens:CIMStandardDataConnection' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.4.0'&gt;&lt;WorkspaceConnectionString&gt;DATABASE=D:\OneDrive - The University of Colorado Denver\02_T\Courses\38_Geog5050_2020a_SpatialStat\exercises\GEOG5050_x06\beta\G5050_Ex06\G5050Ex06_Vote.gdb&lt;/WorkspaceConnectionString&gt;&lt;WorkspaceFactory&gt;FileGDB&lt;/WorkspaceFactory&gt;&lt;Dataset&gt;vote&lt;/Dataset&gt;&lt;DatasetType&gt;esriDTFeatureClass&lt;/DatasetType&gt;&lt;/CIMStandardDataConnection&gt;" &lt;operationSequence&gt;&lt;workflow&gt;&lt;AddField&gt;&lt;field_name&gt;NonEng&lt;/field_name&gt;&lt;field_type&gt;DOUBLE&lt;/field_type&gt;&lt;field_alias&gt;NonEng&lt;/field_alias&gt;&lt;field_is_nullable&gt;True&lt;/field_is_nullable&gt;&lt;field_is_required&gt;False&lt;/field_is_required&gt;&lt;/AddField&gt;&lt;/workflow&gt;&lt;/operationSequence&gt;</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20201027" Time="221229">DeleteField vote MedAge15</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20201027" Time="221435">FeatureClassToFeatureClass vote "D:\OneDrive - The University of Colorado Denver\02_T\Courses\38_Geog5050_2020a_SpatialStat\exercises\GEOG5050_x06\Send\G5050_Ex06\G5050Ex06_Vote.gdb" vote2 # "GEOID "GEOID" true true false 5 Text 0 0,First,#,vote,GEOID,0,5;NAME "NAME" true true false 100 Text 0 0,First,#,vote,NAME,0,100;State "State" true true false 2 Text 0 0,First,#,vote,State,0,2;POP2016 "POP2016" true true false 8 Double 0 0,First,#,vote,POP2016,-1,-1;S_MedEarn2015 "S_MedEarn2015" true true false 8 Double 0 0,First,#,vote,S_MedEarn2015,-1,-1;P_PctPov "P_PctPov" true true false 8 Double 0 0,First,#,vote,P_PctPov,-1,-1;SEth_NWhitePct "SEth_NWhitePct" true true false 8 Double 0 0,First,#,vote,SEth_NWhitePct,-1,-1;Pct_Urban "Pct_Urban" true true false 8 Double 0 0,First,#,vote,Pct_Urban,-1,-1;HS_NPct "HS_NPct" true true false 8 Double 0 0,First,#,vote,HS_NPct,-1,-1;e2012_RepPct "e2012_RepPct" true true false 8 Double 0 0,First,#,vote,e2012_RepPct,-1,-1;E2016_RPct2 "E2016_RPct2" true true false 8 Double 0 0,First,#,vote,E2016_RPct2,-1,-1;E2012_DemPct "E2012_DemPct" true true false 8 Double 0 0,First,#,vote,E2012_DemPct,-1,-1;WinParty "WinParty" true true false 11 Text 0 0,First,#,vote,WinParty,0,11;E16_Dpct "E16_Dpct" true true false 8 Double 0 0,First,#,vote,E16_Dpct,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0,First,#,vote,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0,First,#,vote,Shape_Area,-1,-1;Pct_Unemp "Pct_Unemp" true true false 8 Double 0 0,First,#,vote,Pct_Unemp,-1,-1;GEOID2 "GEOID2" true true false 8 Double 0 0,First,#,vote,GEOID2,-1,-1;GEOID3 "GEOID3" true true false 255 Text 0 0,First,#,vote,GEOID3,0,255;Pop_2015 "Pop_2015" true true false 8 Double 0 0,First,#,vote,Pop_2015,-1,-1;NonEng "NonEng" true true false 8 Double 0 0,First,#,vote,NonEng,-1,-1" #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\TableToTable" Date="20201102" Time="110909">TableToTable vote2 "E:\FA20\Stats\Exercise 6" vote2_table.csv # "GEOID "GEOID" true true false 5 Text 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,GEOID,0,5;NAME "NAME" true true false 100 Text 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,NAME,0,100;State "State" true true false 2 Text 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,State,0,2;POP2016 "POP2016" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,POP2016,-1,-1;S_MedEarn2015 "S_MedEarn2015" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,S_MedEarn2015,-1,-1;P_PctPov "P_PctPov" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,P_PctPov,-1,-1;SEth_NWhitePct "SEth_NWhitePct" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,SEth_NWhitePct,-1,-1;Pct_Urban "Pct_Urban" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,Pct_Urban,-1,-1;HS_NPct "HS_NPct" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,HS_NPct,-1,-1;e2012_RepPct "e2012_RepPct" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,e2012_RepPct,-1,-1;E2016_RPct2 "E2016_RPct2" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,E2016_RPct2,-1,-1;E2012_DemPct "E2012_DemPct" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,E2012_DemPct,-1,-1;WinParty "WinParty" true true false 11 Text 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,WinParty,0,11;E16_Dpct "E16_Dpct" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,E16_Dpct,-1,-1;Pct_Unemp "Pct_Unemp" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,Pct_Unemp,-1,-1;GEOID2 "GEOID2" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,GEOID2,-1,-1;GEOID3 "GEOID3" true true false 255 Text 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,GEOID3,0,255;Pop_2015 "Pop_2015" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,Pop_2015,-1,-1;NonEng "NonEng" true true false 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,NonEng,-1,-1;Shape_Length "Shape_Length" false true true 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,Shape_Length,-1,-1;Shape_Area "Shape_Area" false true true 8 Double 0 0,First,#,E:\FA20\Stats\Exercise 6\G5050_Ex06\G5050_Ex06\G5050Ex06_Vote.gdb\vote2,Shape_Area,-1,-1" #</Process></lineage><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">North_America_Albers_Equal_Area_Conic</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/2.4.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;North_America_Albers_Equal_Area_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,0.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-96.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,20.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,60.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,40.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;Esri&amp;quot;,102008]]&lt;/WKT&gt;&lt;XOrigin&gt;-16688100&lt;/XOrigin&gt;&lt;YOrigin&gt;-9068200&lt;/YOrigin&gt;&lt;XYScale&gt;10000&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;102008&lt;/WKID&gt;&lt;LatestWKID&gt;102008&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><SyncDate>20201102</SyncDate><SyncTime>11090700</SyncTime><ModDate>20201102</ModDate><ModTime>11090700</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 18363) ; Esri ArcGIS 12.4.0.19948</envirDesc><dataLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">vote2_table.csv</resTitle><presForm><PresFormCd value="001" Sync="TRUE"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd value="001" Sync="TRUE"></SpatRepTypCd></spatRpType></dataIdInfo><mdLang><languageCode value="eng" Sync="TRUE"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><distInfo><distFormat><formatName Sync="TRUE">Text File</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><mdHrLv><ScopeCd value="007" Sync="TRUE"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">non-geographic dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="102008" Sync="TRUE"></identCode><idCodeSpace Sync="TRUE">Esri</idCodeSpace><idVersion Sync="TRUE">4.0.0</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="vote2"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20201102</mdDateSt></metadata>
